@@ -149,7 +149,13 @@ Score = ((Q1 - 1) + (Q2 - 1)) / 12 × 100
 
 ### View: vw_Dashboard_Usability_Scores
 
-All table columns plus `FinalScore_100`, `AdjectiveRating`, and `Grade`.
+All table columns plus:
+
+| Column          | Type    | Description                                      |
+|-----------------|---------|--------------------------------------------------|
+| FinalScore_100  | DECIMAL | UMUX-Lite score 0–100                            |
+| AdjectiveRating | VARCHAR | Best Imaginable / Excellent / Good / OK / Poor / Worst Imaginable |
+| Grade           | VARCHAR | A / B / C / D / F (Sauro & Lewis, 2012)          |
 
 ## API Endpoints
 
