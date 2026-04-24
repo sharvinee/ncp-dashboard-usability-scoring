@@ -101,8 +101,8 @@ Opens at `http://localhost:3000`.
 ## User Flow
 
 1. **Landing** — respondent reads the instruction to explore the dashboard first (shared via email), enters their name (optional) and selects their role (required: CTTS, Physician, Student, Other)
-2. **Question 1** — drag slider 1–7: *"This system's capabilities meet my requirements."*
-3. **Question 2** — drag slider 1–7: *"This system is easy to use."*
+2. **Question 1** — drag slider 1–7: *"This dashboard's capabilities meet my requirements."*
+3. **Question 2** — drag slider 1–7: *"This dashboard is easy to use."*
 4. **Review** — see both answers with option to edit before submitting
 5. **Results** — score (0–100), adjective rating, grade, and visual gauge
 

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 const QUESTIONS = [
-  "This system's capabilities meet my requirements.",
-  "This system is easy to use.",
+  "This dashboard's capabilities met my requirements.",
+  "This dashboard is easy to use.",
 ];
 
 const SCALE_LABELS = [

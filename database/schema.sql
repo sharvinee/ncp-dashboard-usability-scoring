@@ -84,7 +84,7 @@ COMMENT ON COLUMN Dashboard_Usability_Feedback.FeedbackID IS 'Unique identifier 
 COMMENT ON COLUMN Dashboard_Usability_Feedback.SubmittedDate IS 'Timestamp of submission (auto-populated)';
 COMMENT ON COLUMN Dashboard_Usability_Feedback.UserName IS 'Full name of the respondent';
 COMMENT ON COLUMN Dashboard_Usability_Feedback.UserRole IS 'Role of the respondent (CTTS, Physician, Student, Other)';
-COMMENT ON COLUMN Dashboard_Usability_Feedback.Q1_Requirements IS 'Rating 1-7: The dashboard capabilities meet my requirements';
+COMMENT ON COLUMN Dashboard_Usability_Feedback.Q1_Requirements IS 'Rating 1-7: This dashboard''s capabilities met my requirements';
 COMMENT ON COLUMN Dashboard_Usability_Feedback.Q2_EaseOfUse IS 'Rating 1-7: This dashboard is easy to use';
 
 COMMENT ON VIEW vw_Dashboard_Usability_Scores IS 'Calculated UMUX-Lite scores (0-100) and adjective ratings for all feedback entries';
