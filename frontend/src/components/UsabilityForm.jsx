@@ -140,7 +140,7 @@ export default function UsabilityForm() {
     setSubmitting(true);
     setSubmitError('');
     try {
-      const res = await fetch('http://localhost:3001/api/feedback', {
+      const res = await fetch(`${process.env.REACT_APP_API_URL || 'http://localhost:3001'}/api/feedback`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
