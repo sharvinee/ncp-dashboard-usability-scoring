@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const QUESTIONS = [
-  "This dashboard's capabilities met my requirements.",
+  "This dashboard's capabilities meet my requirements.",
   "This dashboard is easy to use.",
 ];
 
